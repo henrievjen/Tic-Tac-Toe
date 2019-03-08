@@ -1,0 +1,52 @@
+<html>
+
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/board.gif">
+        <link rel="stylesheet" type="text/css" href="style/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="script/index.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div class="main">
+            <img src="images/board.gif" alt="Tic-Tac-Toe Game Board" class="game-board">
+            <div id="0" class="square"></div>
+            <div id="1" class="square"></div>
+            <div id="2" class="square"></div>
+            <br>
+            <div id="3" class="square"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square"></div>
+            <br>
+            <div id="6" class="square"></div>
+            <div id="7" class="square"></div>
+            <div id="8" class="square"></div>
+            
+            <br>
+            <br>
+            <div class="block"></div>
+            <div class="game-over-content"><div class="game-over"></div></div>
+            
+            <div class="player-option">
+                <button class="p1">One Player</button>
+                <button class="p2">Two Player</button>
+            </div>
+            
+            <pre id="selected-text"></pre>
+            
+            <div class="choose">
+                <img src="images/x.png" class="choose-x">
+                <p id="break"></p>
+                <img src="images/o.png" class="choose-o">
+            </div>
+            
+            <button class="play">Play</button>
+        </div>
+        
+        <noscript>Sorry, your browser doesn't support JavaScript.</noscript>
+    </body>
+
+</html>
